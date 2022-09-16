@@ -1,4 +1,5 @@
-﻿$fileName = "C:\Sample\File14.txt"
+﻿#This checks for a file and keeps checking until its on disk
+$fileName = "C:\Sample\File14.txt"
 $doesFileExist = test-path -Path $fileName -PathType leaf
 $counter = 0
 
